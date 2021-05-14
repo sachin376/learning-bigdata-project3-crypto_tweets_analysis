@@ -14,7 +14,7 @@ Goals/Objective :
 	1. Analysing the trend of crypto currency for the last few years. Plotting different garphs to see how volume, price etc of different crypto coins changed over time.
 	2. Cryptocurrency price Prediction using Deep learning. (ML model used - LSTM, Keras and tensorflow.)
 	3. Analysis of social media on the crypto price. Sentiments using keywords in the tweets and relate that with the currency price. Sentiments - Positive, negative or neutral emotions.
-	4. Seing the project scope and timelines, our main focus is on Twitter and Bitcoin.
+	4. Seeing the project scope and timelines, our main focus is on Twitter and Bitcoin.
 
 
 Datasets :
@@ -26,9 +26,12 @@ Datasets :
 		a. Contains all the bitcoin tweets
 		b. Date range is from 2016-Jan-01 to 2019-March-29
 
+Special instructions to run the project :
+    1. There are two notebooks of our project. Please run in order.
+        - 'Part1_Cryptocurrencies.ipynb'
+        - 'Part2_Cryptocurrencies_tweet_sentiments.ipynb'
 
-Special instructions to run the the project : 
-    1. Special Library/Packages installed :
+    2. Special Library/Packages installed :
         TextBlob
             pip install -U textblob
             https://textblob.readthedocs.io/en/dev/install.html
@@ -38,27 +41,22 @@ Special instructions to run the the project :
         Keras and tensorflow is used to develop LSTM model
             pip install keras
             pip install tensorflow
-        Plotly package
+        Plotly package - to plot 3D graph, pie chart
             pip install plotly
         Download english stopwords used in tweet analysis, this might take little time
             import nltk
             from nltk.corpus import stopwords
             nltk.download('stopwords')
         
-    2. Configurations :
-            Already Configurations parameters are given on the top of the notebooks with descripion. 
-Approach :
+    3. Configurations :
+            Configurations parameters are given on the top of the notebooks with description. 
 
 
-
-Know issues with the project:
-    1. 
-
-Challenges :
-	Not able to install few packages on windows to translate the tweets to english language like whatthelang. 
+Challenges / Know issues with the project :
+	1. Not able to install few packages on windows to translate the tweets to English language like whatthelang. 
         Language Prediction - https://github.com/indix/whatthelang
-    Original Google translator package was giving error so have to installed a new package - https://github.com/lushan88a/google_trans_new
-	Google translator stopped translating the tweets after certain time with below error.
+    2. Original Google translator package was giving error so have to installed a new package - https://github.com/lushan88a/google_trans_new
+	3. Google translator stopped translating the tweets after certain time with below error.
 	    Error - "Our systems have detected unusual traffic from your computer network"
 
 What we learnt:
@@ -67,26 +65,19 @@ What we learnt:
 	3. Learnt how to train and test accuracy of a Machine learning model.
 	4. Learnt how to handle large datasets.
 	5. Various methods and properties in Pandas.
-	6. Sentiment analysis through text and many more.
+	6. Sentiment analysis through text.
     7. Troubleshooting and finding the bottlenecks in the program.
     8. Learning refactoring code and have better performance.
 
 
-Extension :
-    We can extent this work to explore more cryptocurrencies and also stock prices.
-    We can also extent the impact of social media other than tweet
+Conclusion:
+    1. We got better analysis of various cryptocurrencies.
+    2. According to model prediction, looks like model is near to accurate.
+    3. Sentiment analysis done successfully
 
-Todo:
 
-Did you succeed?
-
-Use the markdown cells to to explain your code and results as they are easier to read then comments in code.
-Use the markdown cells to add headers (Introduction, How to Run, Results, etc) to give the notebook some structure.  
-
-Download dataset : 
-add a command in your jupyter notebook that will  download your data file from its source. The following command in a code cell on a Unix machine will download covid data at the given https address to the local file covid.csv.
-
-!curl -o covid.csv https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_confirmed_usafacts.csv 
-
-Upload Smaller dataset to run the program : 
-If your code takes a long time to run on the original data set then I would like a smaller dataset to run while grading. If the file is small enough it can be combined with your notebook and up loaded. If not provide a method to download the file: dropbox link, Google drive link, etc. If you are not able to do this contact me to make other arrangements. Always include a link to access the original data set file.
+Futrue scope :
+    1. We can extend this work to explore stock prices.
+    2. We can also extend the impact of social media other than twitter
+    3. Improve ML model to avoid overfiting.
+    4. We can try other ML models.
