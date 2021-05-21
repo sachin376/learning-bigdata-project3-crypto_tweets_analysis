@@ -2,10 +2,6 @@ Big Data CS649 Project
 
 Analysis of cryptocurrencies historical trend, Price Prediction and analysis the influence of tweets over various cryptocurrencies
 
-Members:
-    1. Kavya Onkarappa Sunanda Lnu (RedID: 825893660)
-    2. Sachin Kumar (RedID: 823431551)
-
 Abstract / Brief Description:
 	Cryptocurrecy being one of the trending topic nowadays, we wanted to see the history of different crypto coins. Build a ML model to predict a Crypto currency price and also to see how social media like twitter had it's impact on cryptocurrency price.
 
