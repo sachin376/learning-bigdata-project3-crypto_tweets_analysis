@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+part2_input_dataset/tweets.csv
+part2_output/test/tweets_processed.csv
